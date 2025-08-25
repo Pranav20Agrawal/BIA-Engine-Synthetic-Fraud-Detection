@@ -32,7 +32,7 @@ class BIA_Model_v2(nn.Module):
 DEVICE = torch.device("cpu")
 tokenizer = AutoTokenizer.from_pretrained('distilbert-base-uncased')
 model = BIA_Model_v2(num_numerical_features=2)
-model.load_state_dict(torch.load('bia_model_final.pth', map_location=DEVICE))
+model.load_state_dict(torch.load('bia_model_master.pth', map_location=DEVICE))
 model.to(DEVICE)
 model.eval()
 
