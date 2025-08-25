@@ -22,7 +22,7 @@ from final_training import BIADataset, collate_fn_v2, BIA_Model_v2
 
 # --- Configuration ---
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-CHALLENGE_DATASET_PATH = 'challenge_dataset.csv'
+CHALLENGE_DATASET_PATH = 'challenge_dataset_balanced.csv'
 MODEL_PATH = 'bia_model_final.pth'
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 BATCH_SIZE = 8
