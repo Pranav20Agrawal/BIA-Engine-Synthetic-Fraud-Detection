@@ -190,7 +190,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- **University NLP Research Team** for project guidance
 - **Reddit Community** for providing authentic human communication data
 - **Hugging Face** for transformer model infrastructure
 - **Google Colab** for computational resources
